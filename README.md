@@ -33,6 +33,12 @@ Question ids are caller metadata, not model input. Isolation: changing sibling i
 (asdf:test-system "decision-protocol")
 ```
 
+Offline demo (mock backend, isolation + concentration ≠ P(correct)):
+
+```bash
+sbcl --load examples/batch.lisp
+```
+
 ## License
 
 MIT
