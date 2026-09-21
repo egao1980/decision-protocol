@@ -29,6 +29,10 @@ Question ids are caller metadata, not model input. Isolation: changing sibling i
 
 `decide` establishes `retry`, `use-value`, and per-question `skip-question`. `permute` / `decide-separate` are optional (`:permute` / `:separate`); the default methods signal `decision-unsupported`.
 
+```lisp
+(asdf:test-system "decision-protocol")
+```
+
 ## License
 
 MIT
