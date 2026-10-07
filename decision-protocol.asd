@@ -1,5 +1,5 @@
 (defsystem "decision-protocol"
-  :version "0.1.0"
+  :version "0.1.1"
   :description "CLOS decision protocol for cl-stack (typed batched probabilities)"
   :author "egao1980"
   :license "MIT"
